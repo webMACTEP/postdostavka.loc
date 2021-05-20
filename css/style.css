@@ -188,9 +188,23 @@ h1 {
   -webkit-box-shadow: 3px 3px 0px rgba(55, 132, 249, 0.25);
           box-shadow: 3px 3px 0px rgba(55, 132, 249, 0.25);
   border-radius: 20px;
-  padding: 20px;
+  padding: 25px;
+  min-width: 360px;
   color: #fff;
   text-align: center;
+}
+
+.intro__cz.belgium {
+  background: #0069b5;
+}
+
+.intro__cz.germany {
+  background: #003e92;
+}
+
+.intro__cz span {
+  font-weight: bold;
+  line-height: 300%;
 }
 
 .intro__cz-row {
@@ -203,12 +217,15 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   border-bottom: 1px solid #ffffff;
+  margin: 0px 0px 10px 0px;
 }
 
 .intro__flag {
   width: 36px;
-  margin: 0px 20px 0px 0px;
+  margin: 10px 20px;
 }
 
 .intro__title {
@@ -217,7 +234,22 @@ h1 {
   color: #fff;
 }
 
+.intro__ves {
+  margin: 0px 0px 20px 0px;
+  padding: 10px;
+  width: 60px;
+  -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.intro__radio input {
+  margin: 0px 0px 0px 20px;
+}
+
 .intro__butt {
+  margin: 10px 0px;
   background: #4bd759;
   border-radius: 50px;
   padding: 17px 30px;
@@ -226,4 +258,8 @@ h1 {
   text-align: center;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.intro__butt:hover {
+  background: #f05d2f;
 }

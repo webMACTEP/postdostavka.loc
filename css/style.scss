@@ -102,21 +102,34 @@ $green: #4bd759;
       background: #0093d7;
       box-shadow: 3px 3px 0px rgba(55, 132, 249, 0.25);
       border-radius: 20px;
-      padding: 20px;
+      padding: 25px;
+      min-width: 360px;
       color: #fff;
       text-align: center;
+      &.belgium {
+         background: #0069b5;
+      }
+      &.germany {
+         background: #003e92;
+      }
+      & span {
+         font-weight: bold;
+         line-height: 300%;
+      }
    }
 
    &__cz-row {
       display: flex;
       align-items: center;
       justify-content: center;
+      align-content: center;
       border-bottom: 1px solid #ffffff;
+      margin: 0px 0px 10px 0px;
    }
 
    &__flag {
       width: 36px;
-      margin: 0px 20px 0px 0px;
+      margin: 10px 20px;
    }
 
    &__title {
@@ -126,12 +139,20 @@ $green: #4bd759;
    }
 
    &__ves {
+      margin: 0px 0px 20px 0px;
+      padding: 10px;
+      width: 60px;
+      box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 3px;
+      text-align: center;
    }
 
-   &__radio {
+   &__radio input {
+      margin: 0px 0px 0px 20px;
    }
 
    &__butt {
+      margin: 10px 0px;
       background: $green;
       border-radius: 50px;
       padding: 17px 30px;
@@ -139,5 +160,8 @@ $green: #4bd759;
       text-transform: uppercase;
       text-align: center;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      &:hover {
+         background: $orange;
+      }
    }
 }
