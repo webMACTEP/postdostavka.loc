@@ -182,3 +182,48 @@ h1 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.intro__cz {
+  background: #0093d7;
+  -webkit-box-shadow: 3px 3px 0px rgba(55, 132, 249, 0.25);
+          box-shadow: 3px 3px 0px rgba(55, 132, 249, 0.25);
+  border-radius: 20px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.intro__cz-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #ffffff;
+}
+
+.intro__flag {
+  width: 36px;
+  margin: 0px 20px 0px 0px;
+}
+
+.intro__title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+}
+
+.intro__butt {
+  background: #4bd759;
+  border-radius: 50px;
+  padding: 17px 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
