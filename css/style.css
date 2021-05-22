@@ -315,3 +315,9 @@ h2 {
 .order__win input {
   border: 1px solid #0055a5;
 }
+
+.order__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
