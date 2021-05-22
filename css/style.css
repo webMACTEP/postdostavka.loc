@@ -97,6 +97,14 @@ h1 {
   line-height: 150%;
 }
 
+h2 {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+}
+
 .header {
   background: #0055a5;
   padding: 20px 0px;
@@ -262,4 +270,48 @@ h1 {
 
 .intro__butt:hover {
   background: #f05d2f;
+}
+
+.order {
+  background: #0055a5;
+  padding: 70px 0px 80px 0px;
+}
+
+.order p {
+  color: #fff;
+  text-align: center;
+}
+
+.order p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.order__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+.order__title img {
+  margin: 0px 20px 0px 0px;
+}
+
+.order__dash {
+  padding: 8px;
+  border: 1px dashed #ffffff;
+  margin: 20px 0px 15px 0px;
+}
+
+.order__win {
+  background: #fff;
+  padding: 30px 40px;
+}
+
+.order__win input {
+  border: 1px solid #0055a5;
 }

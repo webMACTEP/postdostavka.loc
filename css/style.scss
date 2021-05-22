@@ -22,6 +22,13 @@ h1 {
    font-size: 43px;
    line-height: 150%;
 }
+h2 {
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   font-weight: 500;
+   font-size: 36px;
+   line-height: 150%;
+}
 
 $accent: #0055a5;
 $orange: #f05d2f;
@@ -163,5 +170,90 @@ $green: #4bd759;
       &:hover {
          background: $orange;
       }
+   }
+}
+.order {
+   background: $accent;
+   padding: 70px 0px 80px 0px;
+
+   & p {
+      color: #fff;
+      text-align: center;
+      & a {
+         color: #fff;
+         text-decoration: underline;
+      }
+   }
+   &__title {
+      display: flex;
+      justify-content: center;
+      color: #fff;
+      & img {
+         margin: 0px 20px 0px 0px;
+      }
+   }
+   &__dash {
+      padding: 8px;
+      border: 1px dashed #ffffff;
+      margin: 20px 0px 15px 0px;
+   }
+   &__win {
+      background: #fff;
+      padding: 30px 40px;
+
+      & input {
+         border: 1px solid $accent;
+      }
+   }
+
+   &__wrapp {
+   }
+
+   &__from {
+   }
+
+   &__subtitle {
+   }
+
+   &__countries {
+   }
+
+   &__city {
+   }
+
+   &__postcode {
+   }
+
+   &__address {
+   }
+
+   &__surname {
+   }
+
+   &__name {
+   }
+
+   &__tel {
+   }
+
+   &__mail {
+   }
+
+   &__weight {
+   }
+
+   &__length {
+   }
+
+   &__width {
+   }
+
+   &__height {
+   }
+
+   &__to {
+   }
+
+   &__button {
    }
 }
