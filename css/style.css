@@ -444,6 +444,11 @@ h2 {
   padding: 80px 0px 100px 0px;
 }
 
+.faq a {
+  color: #0055a5;
+  text-decoration: underline;
+}
+
 .faq p {
   text-align: justify;
   margin: 0px 20px;
