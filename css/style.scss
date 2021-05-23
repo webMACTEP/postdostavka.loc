@@ -200,9 +200,16 @@ $green: #4bd759;
    &__win {
       background: #fff;
       padding: 30px 40px;
+      text-align: center;
+
+      & span {
+         color: red;
+      }
 
       & input {
          border: 1px solid $accent;
+         padding: 9px 18px;
+         margin: 10px 0px 0px 0px;
       }
    }
 
@@ -211,12 +218,34 @@ $green: #4bd759;
    }
 
    &__from {
+      width: 50%;
+      padding: 0px 20px;
+      margin: 0px 0px 35px 0px;
    }
 
    &__subtitle {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: $accent;
+      border-bottom: solid 1px $accent;
+      padding: 10px;
+      margin: 0 20px;
    }
 
    &__countries {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0px 25px -30px;
+      & img {
+         margin: 0px 10px;
+      }
+      & input {
+         margin: 0px 0px 0px 30px;
+      }
    }
 
    &__city {
@@ -226,6 +255,7 @@ $green: #4bd759;
    }
 
    &__address {
+      width: 396px;
    }
 
    &__surname {
@@ -253,8 +283,34 @@ $green: #4bd759;
    }
 
    &__to {
+      width: 50%;
+      position: relative;
+      padding: 0px 20px;
+      &::before {
+         content: "";
+         position: absolute;
+         left: 0;
+         top: 145px;
+         border: 1px dashed #0055a5;
+         width: 0px;
+         height: 289px;
+      }
    }
 
    &__button {
+      background: $accent;
+      border-radius: 5px;
+      color: #fff;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 150%;
+      padding: 20px 0px;
+      width: 340px;
+      margin: 5px auto;
+      &:hover {
+         background: $orange;
+      }
    }
 }
