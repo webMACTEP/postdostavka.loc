@@ -511,3 +511,43 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.footer {
+  background: #0055a5;
+  padding: 50px 0px 25px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer li {
+  margin: 0px 35px 0px 0px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 0px 20px 0px;
+  border-bottom: 1px solid #ffffff;
+  padding: 0px 0px 40px 0px;
+}
