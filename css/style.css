@@ -444,6 +444,11 @@ h2 {
   padding: 80px 0px 100px 0px;
 }
 
+.faq p {
+  text-align: left;
+  margin: 0px 20px;
+}
+
 .faq h3 {
   position: relative;
   letter-spacing: 0.05em;
