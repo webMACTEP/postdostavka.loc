@@ -457,6 +457,7 @@ h2 {
 }
 
 .faq .ui-accordion-header {
+  cursor: pointer;
   position: relative;
   letter-spacing: 0.05em;
   text-transform: uppercase;
