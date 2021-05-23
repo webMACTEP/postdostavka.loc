@@ -378,3 +378,20 @@ $green: #4bd759;
       margin: 0px auto;
    }
 }
+.feedback {
+   text-align: center;
+   padding: 80px 0px;
+   & img {
+      margin: 0px 12px;
+   }
+   & h2 {
+      color: $accent;
+   }
+
+   &__buttons {
+      margin: 20px 0px 0px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}
