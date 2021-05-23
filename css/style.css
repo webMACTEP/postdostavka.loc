@@ -87,6 +87,12 @@ body {
   margin: 0px auto;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 h1 {
   color: #0055a5;
   text-align: center;
@@ -404,4 +410,30 @@ h2 {
 
 .order__button:hover {
   background: #f05d2f;
+}
+
+.about {
+  padding: 130px 0px 170px 0px;
+}
+
+.about img {
+  margin: 15px;
+}
+
+.about__wrapper {
+  padding: 0px 0px 0px 70px;
+}
+
+.about__title h2 {
+  color: #0055a5;
+}
+
+.about ul {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.about li {
+  margin: 30px 20px;
+  list-style-type: square;
 }
