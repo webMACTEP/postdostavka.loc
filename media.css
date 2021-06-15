@@ -3,6 +3,27 @@
 }
 
 @media (max-width: 576px) {
+  #art_height,
+  #art_width,
+  #art_length,
+  #art_weight,
+  #art_name,
+  #art_adres,
+  #art_city,
+  #art_postcode,
+  #art_tel,
+  #art_sname,
+  #art_email,
+  #art_subject,
+  #art_comments,
+  #art_city_out,
+  #art_postcode_out,
+  #art_address_out,
+  #art_surname_out,
+  #art_name_out,
+  #art_tel_out {
+    width: 100%;
+  }
   body.lock {
     overflow: hidden;
   }
@@ -23,10 +44,11 @@
   }
   .header__logo {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 40px;
-            flex: 0 0 40px;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
   }
   .header__mobmenu {
+    z-index: 100;
     display: block;
     position: fixed;
     top: 0;
@@ -49,7 +71,7 @@
     width: 30px;
     height: 20px;
     position: relative;
-    z-index: 3;
+    z-index: 101;
   }
   .header__burger span {
     position: absolute;
@@ -61,7 +83,8 @@
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
-  .header__burger::before, .header__burger::after {
+  .header__burger::before,
+  .header__burger::after {
     content: "";
     background-color: #fff;
     position: absolute;
@@ -79,21 +102,21 @@
   }
   .header__burger.active:before {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     top: 9px;
   }
   .header__burger.active:after {
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+    transform: rotate(-45deg);
     bottom: 9px;
   }
   .header__burger.active span {
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   .about img {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
   .order__win span {
     display: none;
@@ -128,8 +151,8 @@
   }
   .order__title {
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .order__title h2 {
     font-size: 23px;
@@ -173,8 +196,8 @@
   .footer ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .order__address {
     width: 100%;
@@ -189,8 +212,8 @@
   .footer__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .container {
     margin: 0px 0px 0px 0px;
